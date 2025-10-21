@@ -1,0 +1,9 @@
+//el contenido que esta entre comilla simple, ejemplo
+//ejemplo 'corte-cabello.jpg' cargar en img/servicios 
+//para que identifique las imagenes//
+UPDATE servicios SET imagen = 'corte-cabello.jpg' WHERE nombre_servicio = 'Corte de Cabello';
+UPDATE servicios SET imagen = 'manicure.jpg' WHERE nombre_servicio = 'Manicure';
+UPDATE servicios SET imagen = 'pedicure.jpg' WHERE nombre_servicio = 'Pedicure';
+UPDATE servicios SET imagen = 'tinte-cabello.jpg' WHERE nombre_servicio = 'Tinte de Cabello';
+UPDATE servicios SET imagen = 'alisado.jpg' WHERE nombre_servicio = 'Alisado';
+UPDATE servicios SET imagen = 'peinado.jpg' WHERE nombre_servicio = 'Peinado';
